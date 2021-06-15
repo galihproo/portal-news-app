@@ -1,20 +1,28 @@
-# News Aggregator App - React Introduction
+# Portal News App
 
-## Happy coding!
+<h2>How to use?</h2>
+<h4>1. Download or clone this repo.</br></h4>
+<h4>2. Install dependencies.</br></h4>
 
-##### Apa yang akan kamu pelajari dari app ini?
+```
+npm install
+// or
+yarn install
+```
 
-- Menggunakan open/free API pada aplikasi
-- Cara melakukan remote data fetching di React dengan axios
-- Membuat wrapper (services) untuk melakukan query data
-- Cara menyesuaikan component yang di-render sesuai dengan proses fetching
-- React state management (dengan useState)
-- React life cycle (dengan useEffect)
-- Menggunakan React Router untuk proses perubahan kategori berita
-- Bagaimana cara mengupdate state di React
-- Mengolah data dari API untuk dijadikan User Interface yang dinamis
-- Membuat aplikasi dengan banyak Components
-- Memberikan type untuk props dengan prop-types
-- CSS Module dan dynamic className dengan classnames
+<h4>3. Get News API Key.</br></h4>
+<p>Go to <a href="https://newsapi.org/">https://newsapi.org/</a> and Signup to get API Key</br></p>
 
-&copy; wegodev | version 1.1.0
+<h4>4. Setup ENV.</br></h4>
+<ul>
+    <li>Create .env file</li>
+    <li>Copy your API Key to REACT_APP_API_KEY in .env file</li>
+</ul>
+
+<h4>5. Run project.</br></h4>
+
+```
+npm start
+```
+
+
